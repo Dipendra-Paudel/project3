@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.main-div{
+    display:flex;
+    flex-direction:column;
+}
+.sub-div{
+    height:250px;
+}
+.fdiv{
+    background-color:rgb(0,45,179);
+    display:flex;
+}
+.ldiv{
+    background-color:lightgray;
+    z-index:-1;
+    display:flex;
+}
+.intro{
+    margin:20px 0 0 40px;
+    flex:5;
+    color:white;
+}
+div{
+    font-size:19px;
+}
+h1{
+    margin-bottom:20px;
+    font-size:32px;
+}
+.sidebar{
+    flex:2;
+    background-color:white;
+    height:450px;
+    border-radius:10px;
+    margin:20px 40px 0 0;
+    display:flex;
+    flex-direction:column;
+}
+.sidebar img{
+    border-radius:10px;
+    margin:5px;
+}
+.sidebar .item2{
+    margin:20px 10px;
+}
+.sidebar .item2 .includes span{
+    font-size:20px;
+}
+.sidebar .item2 .includes{
+    font-size:initial;
+}
+.sidebar .item2 button{
+    width:100%;
+    height:35px;
+    font-size:18px;
+    border:none;
+    background-color:lightcoral;
+    color:white;
+}
+.rating{
+    display:flex;
+}
+.rating div{
+    margin-right:20px;
+}
+.author{
+    display:flex;
+}
+.author div{
+    margin-right:20px;
+}
+.flex{
+    display:flex;
+}
+.flex .item{
+    flex:1;
+}
+.down-first{
+    flex:2;
+    margin:20px 0 0 40px;
+}
+.down-last{
+    flex:1;
+}
